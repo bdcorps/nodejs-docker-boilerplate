@@ -1,8 +1,8 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![LinkedIn][linkedin-shield]][linkedin-url]
   <a href="https://david-dm.org/react-boilerplate/react-boilerplate">
     <img src="https://david-dm.org/bdcorps/nodejs-docker-boilerplate.svg" alt="Dependency Status" />
   </a>
-  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -19,16 +19,27 @@ A boilerplate Node.js web app with Docker support
 </p>
 
 ## About the project
-A simple "Hello World" Node.js web app that can deployed as a Docker container. 
+A simple "Hello World" Node.js web app that can deployed as a Docker container. Source code for [Deploy your Node.js web app using Docker](http://sukhpalsaini.io/deploy-your-node-js-web-app-using-docker/) post.
 
-### Installation
+## Dependencies
+1. Docker
+2. Node.js
+
+## Installation
  
 1. Clone the repo
 ```sh
 git clone https://github.com/bdcorps/nodejs-docker-boilerplate.git
 ```
-2. Start main.html
-
+2. Build Docker image
+```sh
+docker build -t sssaini/simple-docker
+```
+3. Run web app as container
+```sh
+docker run -p 3000:3001 sssaini/simple-docker
+```
+The app should be at http://localhost:3001.
 
 <!-- LICENSE -->
 ## License
