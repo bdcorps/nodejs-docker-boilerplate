@@ -1,8 +1,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![LinkedIn][linkedin-shield]][linkedin-url]
   <a href="https://david-dm.org/react-boilerplate/react-boilerplate">
     <img src="https://david-dm.org/bdcorps/nodejs-docker-boilerplate.svg" alt="Dependency Status" />
   </a>
+[![LinkedIn][linkedin-shield]][linkedin-url]
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
