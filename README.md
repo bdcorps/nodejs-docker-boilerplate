@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/bdcorps/nodejs-docker-boilerplate">
-    <img src="https://dummyimage.com/200x200/e1ff00/000000.png&text=Nodejs+x+Docker" alt="Logo" width="200" height="200">
+    <img src="https://dummyimage.com/150x150/e1ff00/000000.png&text=Nodejs+x+Docker" alt="Logo" width="150" height="150">
   </a>
 
   <h3 align="center">Nodejs and Docker Boilerplate</h3>
