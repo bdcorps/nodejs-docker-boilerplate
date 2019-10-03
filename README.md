@@ -33,11 +33,11 @@ git clone https://github.com/bdcorps/nodejs-docker-boilerplate.git
 ```
 2. Build Docker image
 ```sh
-docker build -t sssaini/simple-docker
+docker build . -t sssaini/simple-docker
 ```
 3. Run web app as container
 ```sh
-docker run -p 3000:3001 sssaini/simple-docker
+docker run -p 3001:3000 sssaini/simple-docker
 ```
 The app should be at http://localhost:3001.
 
