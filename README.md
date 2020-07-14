@@ -19,7 +19,7 @@ A boilerplate Node.js web app with Docker support
 </p>
 
 ## About the project
-A simple "Hello World" Node.js web app that can deployed as a Docker container. Source code for [Deploy your Node.js web app using Docker](http://sukhpalsaini.io/deploy-your-node-js-web-app-using-docker/) post.
+A simple "Hello World" Node.js web app that can deployed as a Docker container. Source code for [Deploy your Node.js web app using Docker](http://saasbase.dev/deploy-your-node-js-web-app-using-docker/) post.
 
 ## Dependencies
 1. Docker
